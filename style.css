@@ -488,7 +488,7 @@ button:hover {
         border-bottom-right-radius: 0;
         height: 87%;
         width: 100%;
-        padding: 40px 24px;
+        padding: 40px 24px 80px;
         margin: 110px auto 0;
     }
     .dessert-heading {
@@ -513,4 +513,3 @@ button:hover {
         width: 100%;
     }
 }
-
