@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Product list with cart</title>
+</head>
+<body>
+
+  <div class="wrapper"></div>
+
+    <main>
+      <section class="dessert-section">
+        <h1 class="dessert-heading">Desserts</h1>
+  
+        <div class="dessert-cards"></div>
+      </section>
+  
+      <section class="cart-container">
+        <section class="cart-section">
+          <h1 class="cart-header">Your Cart (<span class="cart-amt">0</span>)</h1>
+  
+          <div class="empty-cart">
+            <img src="./images/illustration-empty-cart.svg" alt="">
+            <p class="empty-cart-text">Your added items will appear here</p>
+          </div>
+  
+          <div class="orders">
+  
+            <div class="order-containers"></div>
+  
+            <div class="order-total">
+              <p class="total-text">Order Total</p>
+              <p class="final-bill">$<span class="final-bill-amt"></span></p>
+            </div>
+  
+            <div class="feature">
+              <img src="./images/icon-carbon-neutral.svg" alt="">
+              <p class="feature-text">This is a <span class="bold">carbon-neutral</span> delivery</p>
+            </div>
+  
+            <button class="confirm-btn">Confirm Order</button>
+  
+          </div>
+        </section>
+      </section>
+    </main>
+
+  <div class="overlay-bill">
+    <div class="bill-container">
+      <img src="./images/icon-order-confirmed.svg" alt="">
+      <h1 class="order-heading">Order Confirmed</h1>
+      <p class="order-message">We hope you enjoy your food!</p>
+
+      <div class="final-bill-overlay">
+        <div class="bill-item-containers-section"></div>
+
+        <div class="bill-total-section">
+          <p class="total-text">Order Total</p>
+          <p class="overlay-final-bill">$<span class="overlay-final-bill-amt">0.00</span></p>
+        </div>
+      </div>
+
+      <button class="new-order">Start New Order</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/189bc17b67.js" crossorigin="anonymous"></script>
+</body>
+</html>
